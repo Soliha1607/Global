@@ -25,7 +25,7 @@ class About(models.Model):
 
     class Meta:
         verbose_name = 'About'
-        verbose_name_plural = 'About'
+        verbose_name_plural = 'Abouts'
 
 
 class Contact(models.Model):

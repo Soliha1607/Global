@@ -8,13 +8,13 @@ class IndexView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(IndexView, self).get_context_data(**kwargs)
-        context['work'] = Work.objects.all()
+        context['works'] = Work.objects.all()
         print("===============================")
-        print(context['work'])
-        context['about'] = About.objects.all()
+        print(context['works'])
+        context['abouts'] = About.objects.all()
         print("===============================")
-        print(context['about'])
-        context['contact'] = Contact.objects.all()
+        print(context['abouts'])
+        context['contacts'] = Contact.objects.all()
         print("===============================")
-        print(context['contact'])
+        print(context['contacts'])
         return context
