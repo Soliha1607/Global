@@ -1,0 +1,9 @@
+asgiref==3.8.1
+Django==5.1.2
+pillow==10.4.0
+psycopg2-binary==2.9.10
+PyMySQL==1.1.1
+PyQt6==6.7.1
+PyQt6-Qt6==6.7.3
+PyQt6_sip==13.8.0
+sqlparse==0.5.1
